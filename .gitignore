@@ -1,0 +1,4 @@
+wp-config.php
+*.log
+wp-content/uploads/*
+wp-content/*.log
