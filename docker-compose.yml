@@ -33,6 +33,11 @@ services:
             - '.:/application'
             - './phpdocker/php-fpm/php-ini-overrides.ini:/etc/php/8.0/fpm/conf.d/99-overrides.ini'
 
+    mailhog:
+        image: 'mailhog/mailhog:latest'
+        ports:
+            - 1025:1025 # smtp server
+            - 8025:8025 # web ui
     cli:
       image: wordpress:cli-php8.0
       volumes:
