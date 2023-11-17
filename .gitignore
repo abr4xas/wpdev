@@ -3,3 +3,4 @@ wp-config.php
 wp-content/uploads/*
 wp-content/*.log
 !log/nginx/application.access.log
+readme.html
