@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Local MU pluins
+ * Plugin Name: Local testing pluins
  * Description: Just for local testing
  * Author:      Angel Cruz
  * License:     GNU General Public License v3 or later
